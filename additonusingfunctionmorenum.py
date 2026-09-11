@@ -1,7 +1,9 @@
-def addition(*args):
-    result=sum(args)
-    print (result)
+def add(x,y):
+    return(x+y)
 
-addition(1,2,3,4,5)
-
+def addition(x,y):
+    result=add(x,y)
+    print(result) 
     
+addition(2,3)
+
